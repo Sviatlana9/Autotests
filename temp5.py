@@ -6,7 +6,6 @@ random_pet_id = random.randint(5,1000)
 NOT_FOUND_CODE = 404
 url = "https://petstore.swagger.io/v2"
 order_id = 5
-exist_order_id = 1
 success_code = 200
 
  class TestOrder(unittest.TestCase):
